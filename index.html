@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kavya Foods Ledger</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #f8f9fa;
+    }
+    .iframe-container {
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+    }
+    .iframe-container iframe {
+      border: 0;
+      width: 100%;
+      height: calc(100% + 40px); /* Increases height to make space for the shifted frame */
+      margin-top: -40px;         /* Pulls the iframe up to hide the Google banner */
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-container">
+    <!-- REPLACE THE URL BELOW WITH YOUR ACTUAL GOOGLE APPS SCRIPT WEB APP URL -->
+    <iframe src="https://script.google.com/macros/s/AKfycbxk8F-9v_r25WAwv9YyequrupDmXyNS897RnCrP3PAggG9QcqRR7mRylfX8w8SUB6wt/exec"></iframe>
+  </div>
+</body>
+</html>
